@@ -1,0 +1,29 @@
+:root {
+  --sm: 320px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.recepie-img {
+  width: var(--sm);
+  height: 250px;
+}
+
+.card-sm {
+  max-width: calc(var(--sm) + 2 * 3rem);
+  max-height: 550px;
+}
+
+.card {
+  border-radius: 0;
+  border-width: 3px;
+  transition: box-shadow 300ms ease-in;
+}
+
+.card:hover {
+  border-color: orangered;
+  box-shadow: 6 6 12px 24px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 300ms ease-in;
+}
