@@ -6,6 +6,57 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+/* header  */
+
+.divider {
+  border: 1px solid white;
+  height: 25px;
+  margin: 0px 15px;
+}
+
+header {
+  background-color: black;
+  height: 5em;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  /* object-fit: cover; */
+  border-radius: 30px;
+}
+
+.search {
+  margin: 20px;
+}
+
+nav {
+  /* display: flex; */
+  /* align-items: center; */
+  margin-left: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #198754;
+}
+
+.hero {
+  width: 6em;
+  padding: 1em;
+}
+
+.hero:hover {
+  transform: scale(1.1);
+}
+
 .recepie-img {
   width: var(--sm);
   height: 250px;

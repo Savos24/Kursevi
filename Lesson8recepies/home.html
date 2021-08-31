@@ -1,47 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Zdravo Svete</title>
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/bowl-with-spoon.ico" />
+    <title>Foodlum</title>
   </head>
   <body>
+    <header class="d-flex justify-content-between align-items-center">
+      <div class="d-flex ms-5">
+        <div class="hero">
+          <a href="./home.html"
+            ><img src="./images/1homemade.jpg" alt="logo"
+          /></a>
+        </div>
+        <form class="d-flex search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      <nav class="d-flex align-items-center me-5">
+        <a href="./home.html">Home</a>
+        <a href="">Latest</a>
+        <a href="">Popular</a>
+        <a href="">About</a>
+        <span class="divider"></span>
+        <a href="">Register</a>
+        <a href="">Log In</a>
+      </nav>
+    </header>
+    <article>
+      <h1>Welcome to Foodlum</h1>
+    </article>
     <section class="container py-4">
       <div class="hstack gap-4">
         <div class="card card-sm">
           <div class="card-body p-5 vstack gap-3">
             <h3 class="card-title text-center fs-4">
-              <a href="./PastaCarbonara.html" class="text-decoration-none text-dark">Pasta Carbonara</a>
+              <a
+                href="./PastaCarbonara.html"
+                class="text-decoration-none text-dark"
+                >Pasta Carbonara</a
+              >
             </h3>
-            <img src="./images/pazta.jpg" class="card-img-top recepie-img" alt="...">
+            <img
+              src="./images/pazta.jpg"
+              class="card-img-top recepie-img"
+              alt="..."
+            />
             <div class="v-stack gap-0">
               <p class="card-text mb-0">15 Minutes</p>
               <p class="card-text mb-0">Bacon, Eggs, Parmesan</p>
             </div>
-            <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet eligendi laboriosam ab consequatur inventore?</p>
+            <p class="card-text mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet
+              eligendi laboriosam ab consequatur inventore?
+            </p>
           </div>
         </div>
 
         <div class="card card-sm">
           <div class="card-body p-5 vstack gap-3">
             <h3 class="card-title text-center fs-4">
-              <a href="./PastaCarbonara.html" class="text-decoration-none text-dark">Pasta Carbonara</a>
+              <a
+                href="./PastaCarbonara.html"
+                class="text-decoration-none text-dark"
+                >Pasta Carbonara</a
+              >
             </h3>
-            <img src="./images/pazta2.jpg" class="card-img-top recepie-img" alt="...">
+            <img
+              src="./images/pazta2.jpg"
+              class="card-img-top recepie-img"
+              alt="..."
+            />
             <div class="v-stack gap-0">
               <p class="card-text mb-0">20 Minutes</p>
               <p class="card-text mb-0">Bacon, Tomatoes, Lime, Parmesan</p>
             </div>
-            <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet eligendi laboriosam ab consequatur inventore?</p>
+            <p class="card-text mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet
+              eligendi laboriosam ab consequatur inventore?
+            </p>
           </div>
         </div>
       </div>
@@ -49,7 +109,11 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
