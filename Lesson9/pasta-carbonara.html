@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/bowl-with-spoon.ico" />
+    <title>Pasta Carbonara</title>
+  </head>
+  <body>
+    <header class="d-flex justify-content-between align-items-center">
+      <div class="d-flex ms-5">
+        <div class="hero">
+          <a href="./home.html"
+            ><img src="./images/1homemade.jpg" alt="logo"
+          /></a>
+        </div>
+        <form class="d-flex search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      <nav class="d-flex align-items-center me-5">
+        <a href="./home.html">Home</a>
+        <a href="">Latest</a>
+        <a href="">Popular</a>
+        <a href="">About</a>
+        <span class="divider"></span>
+        <a href="">Register</a>
+        <a href="">Log In</a>
+      </nav>
+    </header>
+    <div class="container recipe-body bg-white">
+      <h1>Pasta Carbonara</h1>
+
+      <section class="recipe-hero py-2 d-flex justify-content-between">
+        <div>
+          <img
+            class="recipe-hero-img"
+            src="./images/pasta.jpg"
+            alt="Pasta Carbonara dish"
+          />
+        </div>
+
+        <div class="recipe-details vstack gap-4 flex-grow-0 align-self-start">
+          <div class="vstack gap-2 recipe-info">
+            <p>Serves 2 people</p>
+            <p>15 minutes</p>
+          </div>
+
+          <ul class="p-0 recipe-ingredients vstack gap-1">
+            <span class="text-danger fw-bold">Ingredients:</span>
+            <li>2 eggs</li>
+            <li>100g pancetta bacon</li>
+            <li>50g parmesane</li>
+            <li>250g spaghetti</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="py-5 recipe-steps d-flex flex-wrap">
+        <div class="recipe-step">
+          <p class="fw-bold fs-5">Step 1</p>
+          <p>Put a large saucepan of water on to boil.</p>
+        </div>
+        <div class="recipe-step">
+          <p class="fw-bold fs-5">Step 2</p>
+          <p>
+            Finely chop the 100g pancetta, having first removed any rind. Finely
+            grate 50g parmesan and mix them together.
+          </p>
+        </div>
+        <div class="recipe-step">
+          <p class="fw-bold fs-5">Step 3</p>
+          <p>
+            Beat the 3 large eggs in a medium bowl and season with a little
+            freshly grated black pepper. Set everything aside.
+          </p>
+        </div>
+        <div class="recipe-step">
+          <p class="fw-bold fs-5">Step 4</p>
+          <p>
+            Add 1 tsp salt to the boiling water, add 350g spaghetti and when the
+            water comes back to the boil, cook at a constant simmer, covered,
+            for 10 minutes or until al dente.
+          </p>
+        </div>
+      </section>
+    </div>
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="d-flex mb-5">
+          <h1 class="footer-brand">Foodlum</h1>
+          <div class="d-flex justify-content-between links-container">
+            <ul class="footer-list">
+              <li>COMPANY</li>
+              <li><a href="">About</a></li>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">For the Record</a></li>
+            </ul>
+
+            <ul class="footer-list">
+              <li>COMMUNITIES</li>
+              <li><a href="">For Artist</a></li>
+              <li><a href="">Developers</a></li>
+              <li><a href="">Advertising</a></li>
+              <li><a href="">Investors</a></li>
+              <li><a href="">Vendors</a></li>
+            </ul>
+            <ul class="footer-list">
+              <li>USEFUL LINKS</li>
+              <li><a href="">Support</a></li>
+              <li><a href="">Web Player</a></li>
+              <li><a href="">Free Mobile App</a></li>
+            </ul>
+          </div>
+          <div class="icons-container">
+            <a href="#" class="social-icon">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
