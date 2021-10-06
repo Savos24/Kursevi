@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./main.js">
+
+            42 + 10;
+            42 - 10;
+            2 * 2;
+            2 / 2;
+
+            42 + 2 * 5;
+            10 % 2; // 0
+
+            // jednostavni -- simple
+            42 // Number Type
+
+            'string' // String Type
+            "string"
+            'Aleksandar' + ' Jovanovic' // Aleksandar Jovanovic
+
+            true // bool type
+            true,false = 1,0
+
+            undefined // Nije definisan
+            null //
+
+            // Kompleksni -- complex
+            [] // Array (niz)
+            {} // Object (object)
+
+            // Variable (promenjiva)
+            var      eyeColor;
+      //keyword    variable name
+
+            var eyeColor = 'blue'; // Initialized
+      //keyword | variable name | value
+
+            var a = 42;
+            var b = 50;
+            var c = a + b;
+
+            var firstName = 'Aleksandar';
+            var lastName = 'Jovanovic';
+            var fullName = firstName + ' ' + lastName;
+
+            //Negacija
+            var negatedFales = !true;
+
+            var name = 'John Doe';
+            var negatedName = !name;
+
+            // 0. Inicijalizujete 2 promenjive i izvrsite operacije:
+            // 1. Sabiranje
+            // 2. Oduzimanja
+            // 3. Deljenja
+            // 4. Mnozenja
+
+            var a = 2;
+            var b = 7;
+            var s = a + b;
+            var o = a - b;
+            var d = a / b;
+            var m = a * b;
+
+            // 0. Treba zapisati podatke 0 knjizi treba da sadrzi
+            // 1. Autora
+            // 2. Naziv
+            // 3. Godinu izdavanje
+            // 4. Broj Stranica
+            // 5. Jezik na kom je naposana
+            // 6. Za svaku of vrednosti - ispisati u konzoli
+
+            var bookAuthor = 'Igor';
+            console.log("bookAuthor");
+            var bookName = 'Witcher';
+            console.log("bookName");
+            var bookYear = 2015;
+            console.log("bookYear");
+            var bookPages = 777;
+            console.log("bookPages");
+            var bookLanguage = 'English';
+            console.log("bookLanguage");
+
+            //Conditionals
+            var x = true;
+            var y = false;
+            if (true) {
+              console.log("1. x is true");
+
+            } else if (!y) {
+              console.log("2. x is false");
+            }
+
+            // 0. Definisati dve knige (autor, kategorija, naziv)
+            // 1. Ako je knjiga kategorije roman ispisati, autora i naziv
+            // 2. Ako je knjiga kategorije bajka ispisati, autora i naziv i kategoriju
+
+            var book1 = 'roman';
+            var book1Autor = 'Laza';
+            var book1Naziv = 'LifeOfBoris';
+            var book2 = 'bajka';
+            var book2Autor = 'Paja';
+            var book2Naziv = 'PewDiePie';
+
+            if (book1 === 'roman') {
+              console.log('Autor:', book1Autor)
+              console.log('Naziv:', book1Naziv)
+            } else if () {
+              console.log('Autor:', book2Autor)
+              console.log('Naziv:', book2Naziv)
+              console.log('Katekorija;', book2)
+            }
+            // Pomoc: parnost - modulo operator (%)
+            // 0. Definisati promenjive a, b, c, d
+            // 1. Ako je c neparna, pomnoziti a i b i sacuvati u rezultat d
+            // 2. ako je d parna podeliti c sa rezultatom mnozenja a i b
+            // 3. Sve vrednosti zapisati u konzoli
+
+            var a = 10;
+            var b = 15;
+            var c = 25;
+            var d;
+            if (c % 2) {
+              d = a * b;
+              console.log('Neparan je broj sa rezultatom a * b:', d);
+            }
+
+            if (!(d % 2)) {
+              c = c / (a * b);
+            }
+
+            console.log(a, b, c, d)
+    </script>
+  </body>
+</html>
